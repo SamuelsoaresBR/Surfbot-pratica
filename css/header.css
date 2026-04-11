@@ -1,0 +1,61 @@
+.bg-blue{
+  background: #1188EE;
+}
+
+.bg-blue span{
+  color: #fff;
+  display: inline-block;
+  padding: 10px 0px;
+}
+
+.bg-blackAzul{
+  background: #112233;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  gap: 38px;
+  padding: 25px;
+}
+
+.menu a:hover{
+  color: #66AAFF;
+  transition: 0.2s;
+}
+
+ul li:not(:last-child)::after{
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+  margin-left: 15px ;
+}
+
+ul li:last-child::after{
+  content: '';
+  display: block;
+  width: 105px;
+  height: 2px;
+  background: #EE2211;
+}
+
+
+@media(max-width: 647px) {
+ .flex{
+  justify-content: center;
+}
+.logo{
+  margin-top: 20px;
+}
+}

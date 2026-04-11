@@ -1,0 +1,33 @@
+.font-1{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem ;
+} 
+
+.font-2{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.125rem ;
+} 
+
+.font-3{
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.875rem ;
+}
+
+.font-1-b{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+} 
+
+.font-2-b{
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.125rem ;
+  font-weight: 700;
+} 
+
+.font-3-b{
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.875rem ;
+  font-weight: 700;
+} 
+

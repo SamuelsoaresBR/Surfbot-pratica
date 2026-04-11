@@ -1,0 +1,78 @@
+.bg-mar{
+background-image: url(../jpg/Bg-img.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 400px;
+padding-bottom: 60px;
+}
+
+.bg-mar .container{
+  height: 100%;
+}
+
+.flex-2{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.flex-2 h1{
+  font-family: 'Alice', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 4.5rem;
+  line-height: 4rem;
+}
+
+
+#formEmail{
+  display: flex;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+#formEmail input{
+ width: 288px;
+ height: 50px;
+ border-radius: 5px 0 0 5px;
+ border: none;
+ font-family: 'Nunito';
+ font-size: 1.125rem;
+ padding-left: 10px;
+ box-sizing: border-box;
+}
+
+#formEmail input:focus{
+  outline: none;
+  border: 1px solid #ee2211;
+  box-sizing: border-box;
+}
+
+#formEmail input::placeholder{
+  padding: 10px;
+  font-family: 'Nunito';
+  font-size: 1.125rem;
+  color: #ccddcc;
+}
+
+
+.button-p{
+ width: 192px;
+ height: 50px;
+ border: none;
+ border-radius: 0 5px 5px 0;
+ background: #ee2211;
+ color: #fff;
+ font-family: 'Nunito';
+ font-size: 1.125rem;
+ font-weight: 700;
+}
+
+.button-p:hover{
+  background: #cc1100;
+  transition: 0.5s;
+}
