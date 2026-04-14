@@ -7,6 +7,17 @@ height: 400px;
 padding-bottom: 60px;
 }
 
+main{
+  margin-bottom: 60px;
+}
+
+@media(max-width: 647px ) {
+  .bg-mar{
+    height: 200px;
+    padding-bottom: 30px;
+  }
+}
+
 .bg-mar .container{
   height: 100%;
 }
@@ -27,6 +38,22 @@ padding-bottom: 60px;
   line-height: 4rem;
 }
 
+@media(max-width: 950px ) {
+  .flex-2{
+    justify-content: center;
+  }
+}
+
+@media(max-width: 647px ) {
+  .flex-2{
+    justify-content: center;
+  }
+  .flex-2 h1{
+    font-size: 3rem;
+  }
+}
+
+
 
 #formEmail{
   display: flex;
@@ -45,6 +72,13 @@ padding-bottom: 60px;
  padding-left: 10px;
  box-sizing: border-box;
 }
+@media(max-width: 647px ) {
+ #formEmail input{
+  width: 250px;
+ }
+}
+
+
 
 #formEmail input:focus{
   outline: none;
@@ -69,8 +103,16 @@ padding-bottom: 60px;
  color: #fff;
  font-family: 'Nunito';
  font-size: 1.125rem;
+text-transform: uppercase;
  font-weight: 700;
 }
+@media(max-width: 647px ) {
+  .button-p{
+    width: 125px;
+    font-size: 1rem;    
+  }
+}
+
 
 .button-p:hover{
   background: #cc1100;

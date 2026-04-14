@@ -11,3 +11,11 @@ a{
 li{
   list-style: none;
 }
+
+img{
+  max-width: 100%;
+}
+
+body{
+  height: 10000px;
+}

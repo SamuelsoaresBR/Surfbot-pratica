@@ -1,0 +1,140 @@
+.grid-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.informacao-0{
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.imagemEcola{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.imgEscola{
+   box-shadow: 0px 10px 10px 0px rgb(0 , 0, 0, 0.03);
+  box-shadow: 0px 10px 10px 0px rgb(0 , 5, 5, 0.02);
+}
+
+.imgMap {
+  margin-top: -100px;
+  box-shadow: 0px 10px 10px 0px rgb(0 , 0, 0, 0.03);
+  box-shadow: 0px 10px 10px 0px rgb(0 , 5, 5, 0.02);
+}
+
+
+.informLocal {
+  position: relative;
+  z-index: 2;
+}
+
+
+.miniTitulo{
+  color: #112233 ;
+
+}
+.miniTitulo::before{
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 4px;
+  background: #EE2211;  
+}
+
+.endereco{
+  color: #112233;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  gap: 5px;
+  justify-items: center;
+}
+
+.endereco li::before{
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  background: #1188EE;
+}
+
+.endereco li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cor-cinza{
+  color: #99AACC;
+}
+
+
+.informacao-0{
+  margin-left: 120px;
+}
+
+.titulo-1{
+  font-family: 'Alice';
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 90%;
+  margin-bottom: 60px;
+  color: #112233;
+}
+
+.cor-azul{
+  color: #1188EE;
+}
+
+
+.sobreEscola li{
+  color: #33444E;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  position: relative;
+  padding: 20px 0;
+}
+
+.sobreEscola li::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 2px;
+  background: #eeeeff;
+}
+
+.sobreEscola li:last-child::before{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 2px;
+  background: #eeeeff;
+}
+
+.sobreEscola{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.informacao-1{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  color: #33444E;
+}
