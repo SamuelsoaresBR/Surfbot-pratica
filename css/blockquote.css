@@ -1,0 +1,69 @@
+.bgBlockquote{
+  background: url(../jpg/Bg-mar.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
+.flex-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.frase{
+  font-family: 'Alice';
+  font-weight: 400;
+  font-size: 4.5rem;
+  color: #fff;
+  text-align: center;
+  max-width: 19ch;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  line-height: 1.1;
+}
+
+
+.autor{
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 144px;
+}
+
+@media (max-width: 675px) {
+  .frase{
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+  }
+  .autor{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 530px) {
+  .frase{
+    font-size: 2.5rem;
+    margin-top: 65px;
+    margin-bottom: 10px;
+  }
+  .autor{
+    font-size: 1.5rem;
+    margin-bottom: 65px;
+  }
+}
+
+@media (max-width: 390px) {
+  .frase{
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+    margin-top: 35px;
+  }
+  .autor{
+    font-size: 1,2rem;
+    margin-bottom: 35px;
+  }
+}
+
